@@ -3,7 +3,7 @@
 Computational laboratory for neutron-physical modeling and thermal-hydraulic analysis of **VVER-1200** pressurized water reactors. Built from scratch using modern Python engineering practices, vectorized numerics, and high-performance computing tools.
 
 ## Project Objectives
-* **Neutronics & Core Physics:** Implementation of four-factor formula (\(k_\infty\)), 1D/2D multigroup diffusion solvers, xenon-135 transient dynamics, and Monte Carlo neutron transport.
+* **Neutronics & Core Physics:** Implementation of four-factor formula, 1D/2D multigroup diffusion solvers, xenon-135 transient dynamics, and Monte Carlo neutron transport.
 * **Engineering Software Practices:** Strict type hinting (`typing`), immutable physical data structures (`dataclasses`), automated unit testing (`pytest`), and profiling (`cProfile`, `timeit`).
 * **High-Performance Computing:** Transition from pure Python to vectorized `NumPy` arrays, JIT-compilation (`Numba`), and compiled extensions.
 
